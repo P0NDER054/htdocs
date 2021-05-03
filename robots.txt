@@ -1,0 +1,14 @@
+Sitemap: http://example.com/sitemap.xml
+
+User-agent: *
+
+Disallow: /results-template.html/
+Disallow: /log-template.html/
+Disallow: /results.html/
+Disallow: /datetime/
+Disallow: /log.html/
+Disallow: /cgi-bin/
+Disallow: /log/
+
+
+
