@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Meetings</title>
+<title>Meeting Places</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="meetings, AA, NA, SAA, SA, Co-Dependency Groups for Men, Co-Dependency Groups for Women, Co-Dependency Groups for partners of addicts, Diversity Meetings, LGBT Recovery Meetings">
-<meta name="description" content="local meetings, and support groups for sobriety and recovery."/>
+<meta name="keywords" content="meeting places, bible studies, recovery meetings, AA, NA, SAA, SA, Co-Dependency Groups for Men, Co-Dependency Groups for Women, Co-Dependency Groups for partners of addicts, Diversity Meetings, LGBT Recovery Meetings">
+<meta name="description" content="local meeting places for common problems and support."/>
 <meta name="application-name" content="IMID"/>
 <meta name="generator" content="IMID Ltd"/>
 <meta name="author" content="The Trusteeship IMID"/>
@@ -17,7 +17,6 @@
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="css/w3.css"/>
 <link rel="stylesheet" type="text/css" href="css/uikit.css"/>
 <link rel="stylesheet" type="text/css" href="css/master.css"/>
 <link rel="stylesheet" type="text/css" href="css/settings.css"/>
@@ -25,17 +24,20 @@
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 <link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
 <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css"/>
-<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
 <!-- FAVICONS -->
 
-<link rel="shortcut icon" href="images/favicon.ico"/>
-<link rel="shortcut icon" href="images/favicon.png"/>
-<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
+<link rel="shortcut icon" href="images/favicon-2.ico"/>
+<link rel="shortcut icon" href="images/favicon-2.png"/>
+<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32-2.png"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon-2.png"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon-57x57-2.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72-2.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114-2.png"/>
+
+<!-- JavaScript library to detect html5 and CSS3 features in the user's browser -->
+
+<script src="js/modernizr.custom.js"></script>
 
 <!-- JavaScript -->
 
@@ -59,7 +61,7 @@
 <body>
 
 <!-- ===================================== 
-	DEFAULT HEADER
+  DEFAULT HEADER
 ===================================== -->
 <header>
   <div class="w3-container w3-padding-remove">
@@ -67,22 +69,26 @@
       <!-- / end logo -->
       <div class="w3-navbar-flip">
         <ul class="w3-navbar-nav w3-visible-large">
-          <li class="w3-parent" data-w3-dropdown> <a href="index.html">Home</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="index.html"> Home</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="log-template.html">Keep a Log</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="log.html"> Keep a Log</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="results-template.html">Report/Redefine</a>
-          </li>
-           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources-template.html">Local Resources</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="results.html"> Report/Redefine</a>
             <div class="w3-dropdown w3-dropdown-navbar">
               <ul class="w3-nav w3-nav-navbar"> 
-              	<li><a href="agencies-template.html"> Agencies</a></li>
+                <li><a href="open-letter.html"> Open Letter</a>
+                </li>
+              </ul>
+           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html"> Local Resources</a>
+            <div class="w3-dropdown w3-dropdown-navbar">
+              <ul class="w3-nav w3-nav-navbar"> 
+                <li><a href="agencies.html"> Agencies</a></li>
                 <li><a href="food-sources.html"> Food Sources</a></li>
-          		  <li class="w3-active"><a href="meetings-template.html"> Meeting Places</a></li>
+                <li class="w3-active"><a href="meetings.html"> Meeting Places</a></li>
                </ul>
             </div>
           </li>
-          <li class="contact"><a href="contact.html">Make Contact</a></li>
+          <li class="contact"><a href="contact.html"> Make Contact</a></li>
         </ul>
       </div>
       <a href="#offcanvas-nav" class="w3-navbar-toggle w3-hidden-large" data-w3-offcanvas></a>
@@ -155,6 +161,7 @@
 <h4>Some Anonymous Fellowship</h4>
 <p>Days and Times</p>
 <address><a href="google.maps">some number, some street</a></address> 
+<!-- / no spaces in the "Tel:***" field -->
 <p>Tel: <a href="Tel:***-***-****">***-***-****</a></p>
 <h4>Diversity Meetings</h4>
 <h5>Native American Meetings</h5>
@@ -245,7 +252,7 @@ Or visit: <a href="some.web.address">some.web.address</a></p>
     <div class="w3-grid">
       <div class="w3-width-medium-1-2 w3-width-small-1-1">
         <div class="copyright">
-          <p>&copy; 2021 Company. All rights reserved.</p>
+          <p>&copy; 2022 Company. All rights reserved.</p>
         </div>
       </div>
       <!-- / -->
@@ -267,21 +274,22 @@ Or visit: <a href="some.web.address">some.web.address</a></p>
     <ul class="w3-nav w3-nav-offcanvas w3-nav-parent-icon" data-w3-nav="{multiple:true}">
       <li class="w3-parent"><a href="#"><i class="w3-icon-home"></i> Home</a>
         <ul class="w3-nav-sub">
-          <li><a href="index.html">Index</a></li>
+          <li><a href="index.html"> Index</a></li>
         </ul>
       </li>
-      <li class="w3-nav-header">Components</li>
+      <li class="w3-nav-header"> Components</li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-folder-open"></i> Pages</a>
         <ul class="w3-nav-sub">
-          <li><a href="log-template.html">Keep a Log</a></li>
-          <li><a href="results-template.html">Report/Redefine</a></li>
+          <li><a href="log-template.html"> Keep a Log</a></li>
+          <li><a href="results-template.html"> Report/Redefine</a></li>
+          <li><a href="open-letter.html"> Open Letter</a></li>
         </ul>
       </li>
       <li class="w3-active w3-parent"><a href="#"><i class="w3-icon-thumbs-up"></i> Resources</a>
         <ul class="w3-nav-sub">
         	<li><a href="agencies-template.html"> Agencies</a></li>
-            <li><a href="food-sources-template.html"> Food Sources</a></li>
-          	<li class="w3-active"><a href="meetings-template.html"> Meeting Places</a></li>
+          <li><a href="food-sources-template.html"> Food Sources</a></li>
+          <li class="w3-active"><a href="meetings-template.html"> Meeting Places</a></li>
         </ul>
       </li>
       <li><a href="contact.html"><i class="w3-icon-envelope"></i> Make Contact</a> </li>

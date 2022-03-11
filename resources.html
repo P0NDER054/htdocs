@@ -4,8 +4,8 @@
 <title>Local Resources</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="keywords" content="Meetings, Agencies, Food Sources"/>
-<meta name="description" content="Links, descriptions and maps to local resources"/>
+<meta name="keywords" content="meeting places, local agency support, food resources"/>
+<meta name="description" content="local resources with maps to find food, services and meeting places and times"/>
 <meta name="application-name" content="IMID"/>
 <meta name="generator" content="IMID Ltd"/>
 <meta name="author" content="The Trusteeship IMID"/>
@@ -13,7 +13,7 @@
 <!-- FONTS -->
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:800,700,400,300"/>
-<link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+<script src="https://kit.fontawesome.com/29900469fe.js" crossorigin="anonymous"></script>
 
 <!-- CSS -->
 
@@ -34,6 +34,10 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57-2.png"/>
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72-2.png"/>
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114-2.png"/>
+
+<!-- JavaScript library to detect html5 and CSS3 features in the user's browser -->
+
+<script src="js/modernizr.custom.js"></script>
 
 <!-- JavaScript -->
 
@@ -57,7 +61,7 @@
 <body>
 
 <!-- ===================================== 
-	DEFAULT HEADER
+  DEFAULT HEADER
 ===================================== -->
 <header>
   <div class="w3-container w3-padding-remove">
@@ -65,22 +69,27 @@
       <!-- / end logo -->
       <div class="w3-navbar-flip">
         <ul class="w3-navbar-nav w3-visible-large">
-          <li class="w3-parent" data-w3-dropdown> <a href="index.html">Home</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="index.html"> Home</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="log.html">Keep a Log</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="log.html"> Keep a Log</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="results.html">Report/Redefine</a>
-          </li>
-           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html">Local Resources</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="results.html"> Report/Redefine</a>
             <div class="w3-dropdown w3-dropdown-navbar">
               <ul class="w3-nav w3-nav-navbar"> 
-              	<li><a href="agencies.html"> Agencies</a></li>
+                <li><a href="open-letter.html"> Open Letter</a>
+                </li>
+              </ul>
+            </div>
+           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html"> Local Resources</a>
+            <div class="w3-dropdown w3-dropdown-navbar">
+              <ul class="w3-nav w3-nav-navbar"> 
+                <li><a href="agencies.html"> Agencies</a></li>
                 <li><a href="food-sources.html"> Food Sources</a></li>
-          		  <li><a href="meetings.html"> Meeting Places</a></li>
+                <li><a href="meetings.html"> Meeting Places</a></li>
                </ul>
             </div>
           </li>
-          <li class="contact"><a href="contact.html">Make Contact</a></li>
+          <li class="contact"><a href="contact.html"> Make Contact</a></li>
         </ul>
       </div>
       <a href="#offcanvas-nav" class="w3-navbar-toggle w3-hidden-large" data-w3-offcanvas></a>
@@ -120,7 +129,7 @@
       <div class="w3-width-medium-1-3 w3-width-small-1-1">
         <div class="w3-panel w3-panel-box">
  <h4>Meetings</h4>
-<p>When traditional healthcare fails, where do we turn? Spiritual solutions are more relevant today than ever before. While we are dealing with circumstances we've never known before, we are also blessed with a 'new light'- the new light of a new age. <br /><br />Please see: <a href="meetings.html">Meetings</a></p>
+<p>When traditional assemblies fail, where do we turn? Spiritual solutions are more relevant today than ever before. While we are dealing with circumstances we've never known before, we are also blessed with a 'new light'- the new light of a new age. <br /><br />Please see: <a href="meetings.html">Meetings</a></p>
 </div>
       </div>
       <div class="w3-width-medium-1-3 w3-width-small-1-1">
@@ -151,7 +160,7 @@
     <div class="w3-grid">
       <div class="w3-width-medium-1-2 w3-width-small-1-1">
         <div class="copyright">
-          <p>&copy; 2021 Company. All rights reserved.</p>
+          <p>&copy; 2022 Company. All rights reserved.</p>
         </div>
       </div>
       <!-- / -->
@@ -173,21 +182,22 @@
     <ul class="w3-nav w3-nav-offcanvas w3-nav-parent-icon" data-w3-nav="{multiple:true}">
       <li class="w3-parent"><a href="#"><i class="w3-icon-home"></i> Home</a>
         <ul class="w3-nav-sub">
-          <li><a href="index.html">Index</a></li>
+          <li><a href="index.html"> Index</a></li>
         </ul>
       </li>
-      <li class="w3-nav-header">Components</li>
+      <li class="w3-nav-header"> Components</li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-folder-open"></i> Pages</a>
         <ul class="w3-nav-sub">
-          <li><a href="log.html">Keep a Log</a></li>
-          <li><a href="results.html">Report/Redefine</a></li>
+          <li><a href="log.html"> Keep a Log</a></li>
+          <li><a href="results.html"> Report/Redefine</a></li>
+          <li><a href="open-letter.html"> Open Letter</a></li>
         </ul>
       </li>
       <li class="w3-active w3-parent"><a href="#"><i class="w3-icon-thumbs-up"></i> Resources</a>
         <ul class="w3-nav-sub">
         	<li><a href="agencies.html"> Agencies</a></li>
-            <li><a href="food-sources.html"> Food Sources</a></li>
-          	<li><a href="meetings.html"> Meeting Places</a></li>
+          <li><a href="food-sources.html"> Food Sources</a></li>
+          <li><a href="meetings.html"> Meeting Places</a></li>
         </ul>
       </li>
       <li><a href="contact.html"><i class="w3-icon-envelope"></i> Make Contact</a> </li>

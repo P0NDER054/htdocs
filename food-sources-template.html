@@ -4,13 +4,13 @@
 <title>Food Sources</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="finding resources, logging incidents, reporting, processing, confessing, keeping track of communications, making contact">
-<meta name="description" content="How to keep a log, report, process, define problems, and establish contacts."/>
+<meta name="keywords" content="finding resources, logging incidents, reporting, defining problems, keeping track of communications, making contact">
+<meta name="description" content="How to keep a log, report, define problems, and establish contact."/>
 <meta name="application-name" content="IMID"/>
 <meta name="generator" content="IMID Ltd"/>
 <meta name="author" content="The Trusteeship IMID"/>
 
-<!-- GOOGLE FONTS -->
+<!-- FONTS -->
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:800,700,400,300"/>
 <script src="https://kit.fontawesome.com/29900469fe.js" crossorigin="anonymous"></script>
@@ -35,6 +35,10 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72-2.png"/>
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114-2.png"/>
 
+<!-- JavaScript library to detect html5 and CSS3 features in the user's browser -->
+
+<script src="js/modernizr.custom.js"></script>
+
 <!-- JavaScript -->
 
 <script src="js/modernizr.custom.js"></script>
@@ -57,7 +61,7 @@
 <body>
 
 <!-- ===================================== 
-	DEFAULT HEADER
+  DEFAULT HEADER
 ===================================== -->
 <header>
   <div class="w3-container w3-padding-remove">
@@ -65,22 +69,27 @@
       <!-- / end logo -->
       <div class="w3-navbar-flip">
         <ul class="w3-navbar-nav w3-visible-large">
-          <li class="w3-parent" data-w3-dropdown> <a href="index.html">Home</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="index.html"> Home</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="log-template.html">Keep a Log</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="log.html"> Keep a Log</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="results-template.html">Report/Redefine</a>
-          </li>
-           <li class="w3-parent" data-w3-dropdown> <a href="resources-template.html">Local Resources</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="results.html"> Report/Redefine</a>
             <div class="w3-dropdown w3-dropdown-navbar">
               <ul class="w3-nav w3-nav-navbar"> 
-              	<li><a href="agencies-template.html"> Agencies</a></li>
-                <li><a href="food-sources-template.html"> Food Sources</a></li>
-          		<li><a href="meetings-template.html"> Meeting Places</a></li>
+                <li><a href="open-letter.html"> Open Letter</a>
+                </li>
+              </ul>
+            </div>
+           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html"> Local Resources</a>
+            <div class="w3-dropdown w3-dropdown-navbar">
+              <ul class="w3-nav w3-nav-navbar"> 
+                <li><a href="agencies.html"> Agencies</a></li>
+                <li class="w3-active"><a href="food-sources.html"> Food Sources</a></li>
+              <li><a href="meetings.html"> Meeting Places</a></li>
                </ul>
             </div>
           </li>
-          <li class="contact"><a href="contact.html">Make Contact</a></li>
+          <li class="contact"><a href="contact.html"> Make Contact</a></li>
         </ul>
       </div>
       <a href="#offcanvas-nav" class="w3-navbar-toggle w3-hidden-large" data-w3-offcanvas></a>
@@ -201,7 +210,7 @@
     <div class="w3-grid">
       <div class="w3-width-medium-1-2 w3-width-small-1-1">
         <div class="copyright">
-          <p>&copy; 2021 Company. All rights reserved.</p>
+          <p>&copy; 2022 Company. All rights reserved.</p>
         </div>
       </div>
       <!-- / -->
@@ -223,14 +232,15 @@
     <ul class="w3-nav w3-nav-offcanvas w3-nav-parent-icon" data-w3-nav="{multiple:true}">
       <li class="w3-parent"><a href="#"><i class="w3-icon-home"></i> Home</a>
         <ul class="w3-nav-sub">
-          <li><a href="index.html">Index</a></li>
+          <li><a href="index.html"> Index</a></li>
         </ul>
       </li>
-      <li class="w3-nav-header">Components</li>
+      <li class="w3-nav-header"> Components</li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-folder-open"></i> Pages</a>
         <ul class="w3-nav-sub">
-          <li><a href="log-template.html">Keep a Log</a></li>
-          <li><a href="results-template.html">Report/Redefine</a></li>
+          <li><a href="log-template.html"> Keep a Log</a></li>
+          <li><a href="results-template.html"> Report/Redefine</a></li>
+          <li><a href="open-letter.html"> Open Letter</a></li>
         </ul>
       </li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-thumbs-up"></i> Resources</a>

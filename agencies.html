@@ -13,7 +13,7 @@
 <!-- FONTS -->
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:800,700,400,300"/>
-<link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+<script src="https://kit.fontawesome.com/29900469fe.js" crossorigin="anonymous"></script>
 
 <!-- CSS -->
 
@@ -69,13 +69,18 @@
       <!-- / end logo -->
       <div class="w3-navbar-flip">
         <ul class="w3-navbar-nav w3-visible-large">
-          <li class="w3-parent" data-w3-dropdown> <a href="index.html">Home</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="index.html"> Home</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="log.html">Keep a Log</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="log.html"> Keep a Log</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="results.html">Report/Redefine</a>
-          </li>
-           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html">Local Resources</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="results.html"> Report/Redefine</a>
+         	<div class="w3-dropdown w3-dropdown-navbar">
+              <ul class="w3-nav w3-nav-navbar"> 
+                <li><a href="open-letter.html"> Open Letter</a>
+                </li>
+              </ul>
+            </div>
+           <li class="w3-active w3-parent" data-w3-dropdown> <a href="resources.html"> Local Resources</a>
             <div class="w3-dropdown w3-dropdown-navbar">
               <ul class="w3-nav w3-nav-navbar"> 
               	<li class="w3-active"><a href="agencies.html"> Agencies</a></li>
@@ -84,7 +89,7 @@
                </ul>
             </div>
           </li>
-          <li class="contact"><a href="contact.html">Make Contact</a></li>
+          <li class="contact"><a href="contact.html"> Make Contact</a></li>
         </ul>
       </div>
       <a href="#offcanvas-nav" class="w3-navbar-toggle w3-hidden-large" data-w3-offcanvas></a>
@@ -182,14 +187,15 @@
     <ul class="w3-nav w3-nav-offcanvas w3-nav-parent-icon" data-w3-nav="{multiple:true}">
       <li class="w3-parent"><a href="#"><i class="w3-icon-home"></i> Home</a>
         <ul class="w3-nav-sub">
-          <li><a href="index.html">Index</a></li>
+          <li><a href="index.html"> Index</a></li>
         </ul>
       </li>
-      <li class="w3-nav-header">Components</li>
+      <li class="w3-nav-header"> Components</li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-folder-open"></i> Pages</a>
         <ul class="w3-nav-sub">
           <li><a href="log.html">Keep a Log</a></li>
           <li><a href="results.html">Report/Redefine</a></li>
+          <li><a href="open-letter.html">Open Letter</a></li>
         </ul>
       </li>
       <li class="w3-active w3-parent"><a href="#"><i class="w3-icon-thumbs-up"></i> Resources</a>

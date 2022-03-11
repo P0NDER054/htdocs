@@ -4,8 +4,8 @@
 <title>Home</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="finding resources, logging incidents, reporting, processing, confessing, keeping track of communications, making contact">
-<meta name="description" content="How to keep a log, report, process, define problems, and establish contacts."/>
+<meta name="keywords" content="finding resources, logging incidents, reporting, defining problems, keeping track of communications, making contact">
+<meta name="description" content="How to keep a log, report, define problems, and establish contact."/>
 <meta name="application-name" content="IMID"/>
 <meta name="generator" content="IMID Ltd"/>
 <meta name="author" content="The Trusteeship IMID"/>
@@ -37,6 +37,10 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
 
+<!-- JavaScript library to detect html5 and CSS3 features in the user's browser -->
+
+<script src="js/modernizr.custom.js"></script>
+
 <!-- JavaScript -->
 
 <script src="js/modernizr.custom.js"></script>
@@ -59,7 +63,7 @@
 <body>
 
 <!-- ===================================== 
-	DEFAULT HEADER
+  DEFAULT HEADER
 ===================================== -->
 <header>
   <div class="w3-container w3-padding-remove">
@@ -67,22 +71,27 @@
       <!-- / end logo -->
       <div class="w3-navbar-flip">
         <ul class="w3-navbar-nav w3-visible-large">
-          <li class="w3-active w3-parent" data-w3-dropdown> <a href="index.html">Home</a>
+          <li class="w3-active w3-parent" data-w3-dropdown> <a href="index.html"> Home</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="log.html">Keep a Log</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="log.html"> Keep a Log</a>
           </li>
-          <li class="w3-parent" data-w3-dropdown> <a href="results.html">Report/Redefine</a>
-          </li>
-           <li class="w3-parent" data-w3-dropdown> <a href="resources.html">Local Resources</a>
+          <li class="w3-parent" data-w3-dropdown> <a href="results.html"> Report/Redefine</a>
             <div class="w3-dropdown w3-dropdown-navbar">
               <ul class="w3-nav w3-nav-navbar"> 
-              	<li><a href="agencies.html"> Agencies</a></li>
+                <li><a href="open-letter.html"> Open Letter</a>
+                </li>
+              </ul>
+            </div>
+           <li class="w3-parent" data-w3-dropdown> <a href="resources.html"> Local Resources</a>
+            <div class="w3-dropdown w3-dropdown-navbar">
+              <ul class="w3-nav w3-nav-navbar"> 
+                <li><a href="agencies.html"> Agencies</a></li>
                 <li><a href="food-sources.html"> Food Sources</a></li>
-          		  <li><a href="meetings.html"> Meeting Places</a></li>
+                <li><a href="meetings.html"> Meeting Places</a></li>
                </ul>
             </div>
           </li>
-          <li class="contact"><a href="contact.html">Make Contact</a></li>
+          <li class="contact"><a href="contact.html"> Make Contact</a></li>
         </ul>
       </div>
       <a href="#offcanvas-nav" class="w3-navbar-toggle w3-hidden-large" data-w3-offcanvas></a>
@@ -92,6 +101,8 @@
   </div>
 </header>
 
+<section class="section-background">
+    
 <!-- =============================================================
 	FULL SCREEN SLIDER (see settings at the bottom of this page)
 ================================================================== -->
@@ -102,62 +113,58 @@
       <li data-transition="fadetotopfadefrombottom" data-slotamount="7" data-masterspeed="1500" > <img src="images/slides/slide1.jpg" alt="Lighting the way" />
         <div class="tp-caption large_bold_white lft fadeout w3-text-center" data-x="center"
                                         data-y="130"
-                                        data-speed="300" data-start="1200" data-easing="easeOutBack"> Let go!<br>
-          Write it down, </div>
+                                        data-speed="600" data-start="1200" data-easing="easeOutBack">No matter which way a point of view tends,
+          </div>
         <!-- / -->
        
         <!-- / -->
         <div class="tp-caption medium_light_white lfb fadeout" data-x="center"
-                                        data-y="300"
-                                        data-speed="300" data-start="1500" data-easing="easeOutBack"> and begin your migration. </div>
+                                        data-y="220"
+                                        data-speed="600" data-start="1400" data-easing="easeOutBack">Each is entitled to their own.</div>
         <!-- / --> 
+        <div class="tp-caption sfb fadeout" data-x="center"
+                                        data-y="280"
+                                        data-speed="600" data-start="1600" data-easing="easeOutBack">  <a href="https://youtu.be/3-3O3ZQKSFs" class="btn btn-small btn-white">(write it out)</a></div>
       </li>
       <!-- / END slide 1 -->
       <li data-transition="fadetotopfadefrombottom" data-slotamount="7" data-masterspeed="1500" > <img src="images/slides/slide2.jpg" alt="The Teacher" />
         <div class="tp-caption large_bold_white lft fadeout w3-text-center" data-x="center"
-                                        data-y="60"
-                                        data-speed="300" data-start="1200" data-easing="easeOutBack"> When the student is ready, <br>
-          the teacher will come. </div>
+                                        data-y="130"
+                                        data-speed="600" data-start="1200" data-easing="easeOutBack">When the student is ready,</div>
         <!-- / -->
        
         <!-- / -->
         <div class="tp-caption medium_light_white lfb fadeout" data-x="center"
-                                        data-y="240"
-                                        data-speed="300" data-start="1500" data-easing="easeOutBack"> Be an authority in your own case:</div>
+                                        data-y="220"
+                                        data-speed="600" data-start="1400" data-easing="easeOutBack">The teacher will come.</div>
         <!-- / -->
         <div class="tp-caption sfb fadeout" data-x="center"
-                                        data-y="300"
-                                        data-speed="600" data-start="2000" data-easing="easeOutBack">  <a href="https://youtu.be/3-3O3ZQKSFs" class="btn btn-white"> Master your trade</a> </div>
+                                        data-y="280"
+                                        data-speed="600" data-start="1600" data-easing="easeOutBack">  <a href="https://youtu.be/3-3O3ZQKSFs" class="btn btn-small btn-white">(let it go)</a></div>
         <!-- / --> 
       </li>
       <!-- / END slide 2 -->
       <li data-transition="fadetotopfadefrombottom" data-slotamount="7" data-masterspeed="1500" > <img src="images/slides/slide3.jpg" alt="Time Machine" />
         <div class="tp-caption large_bold_white lft fadeout w3-text-center" data-x="center"
-                                        data-y="60"
-                                        data-speed="300" data-start="1200" data-easing="easeOutBack"> No matter which way a point of view tends,<br>
-          each is entitled to their own. </div>
+                                        data-y="110"
+                                        data-speed="600" data-start="1200" data-easing="easeOutBack">Whatever it is you dream you can be,</div>
         <!-- / -->
        
         <!-- / -->
-        <div class="tp-caption medium_light_white lfb fadeout" data-x="center"
-                                        data-y="240"
-                                        data-speed="300" data-start="1500" data-easing="easeOutBack"> Boldness has genius, power and magic in it! </div>
-        <!-- / -->
         <div class="tp-caption sfb fadeout" data-x="center"
-                                        data-y="300"
-                                        data-speed="600" data-start="2000" data-easing="easeOutBack"> <a href="http://imid.ltd/template.zip" class="btn btn-white"><i class="w3-icon-download w3-icon-small w3-margin-right"></i> Begin</a> </div>
+                                        data-y="180"
+                                        data-speed="600" data-start="1400" data-easing="easeOutBack"><a href="http://the-trusteeship.com/template.zip" class="btn btn-small btn-white"><i class="w3-icon-download w3-icon-small w3-margin-right"></i>BEGIN IT!</a></div>
+        <!-- / -->
+        <div class="tp-caption large_bold_white lft fadeout w3-text-center" data-x="center"
+                                        data-y="320"
+                                        data-speed="600" data-start="1600" data-easing="easeOutBack">Boldness has genius, power and magic in it.</div>
         <!-- / --> 
       </li>
     </ul>
   </div>
 </div>
 
-<!-- ===================================== 
-	HEADING
-===================================== -->
-<div class="w3-container w3-container-heading">
-  <h3 class="section-title m-bottom-40">Log, Report, and Make Contact!</h3>
-  </div>
+</section>
 
 <!-- ===================================== 
 	PROJECT DESCRIPTION AND DETAILS
@@ -168,27 +175,28 @@
       <div class="w3-width-medium-2-3 w3-width-small-1-1">
        <h2>Archetype Development</h2>
      
-		<p>When in doubt about a project, prepare your media and materials more carefully. <em>For Example: sometimes people use our examples to make their own case. And, in order to defend ourselves, and our integrity we need to be anonymous, or lock our folders to keep our media safe.</em></p>
+		<p>When in doubt about a project, prepare your media and materials more carefully. <em>(For Example: sometimes, when we're covering crimes and complaints we need to use new solutions, like locking folders etc.)</em></p>
 		
 		<p><b>Keep a Log!</b> And, by publishing drafts of your reports before going live, we can become better able to avoid the wrath of a new conflict while trying to resolve an old one.</p>
 		
 		<p>For more information on the subject, please review the following options:</p> 
 		<ul>
-        <li><a href="fundamentals.html">Fundamentals</a></li> 
-		<li><a href="self-advocacy.html">Self Advocacy</a></li>
+        <li><a href="http://the-trusteeship.com/fundamentals.html">Fundamentals</a></li> 
+		<li><a href="http://the-trusteeship.com/self-advocacy.html">Self Advocacy</a></li>
 		</ul>
 		
-        <p>Our goal is to develop good character and resolve conflicts, so we recommend starting with paper and pen to log incidents, crimes and complaints. You'll find more tools and supplies to help you with that kind of work at: <a href="support.html">Support</a>. Once we become better at predicting the consequences of our efforts (which we also log) we can prepare to publish the results.</p>
-        <p><b>Hosting Logs and Reports:</b>  &nbsp;<a href="web-development.html" class="btn btn-small btn-green"><i class="w3-icon-external-link w3-margin-right"></i> Hosting your Reports</a> </div>
+        <p>Our goal is to develop good character and resolve conflicts, so we recommend starting with paper and pen to log incidents, crimes and complaints. You'll find more tools and supplies to help you with that kind of work at: <a href="http://the-trusteeship.com/support.html">Support</a>. Once we become better at predicting the consequences of our efforts (which we also log) we can prepare to publish the results.</p>
+        <p><b>Hosting Logs and Reports:</b>  &nbsp;<a href="http://the-trusteeship.com/web-development.html" class="btn btn-small btn-green"><i class="w3-icon-external-link w3-margin-right"></i> Hosting your Reports</a> </div>
       <!-- / end project description -->
 	  
       <div class="w3-width-medium-1-3 w3-width-small-1-1">
         <h2>Focus Group</h2>
         <p>So far, we've become competent at solving problems like:
-<ul><li>Inflammation of the body: For example, inflammation from the stress of working in a cramped environment on a phone or tablet with small repetitive movements. One of the most effective treatments can be found here: <a href="bodywork.html">Bodywork</a></li>
-<li>Inflammation of the mind: Dealing with fear, anger and even remorse, (anger turned inwards), is toxic and can literally burn us up. Use the tools we've developed here at: <a href="options.html">Options</a> to address these internal manifestations of willfulness.</li>
-<li>Inflammation of each other: In order to remedy conflicts or grievance and make amends we can work on <a href="problem-solving.html">Problem Solving</a> with each other.</li></ul>
-      </div>
+<ul><li>Inflammation of the body: For example, inflammation from the stress of working in a cramped environment on a phone or tablet with small repetitive movements. One of the most effective treatments can be found here: <a href="http://the-trusteeship.com/bodywork.html">Bodywork</a></li>
+<li>Inflammation of the mind: Dealing with fear, anger and even remorse, (anger turned inwards), is toxic and can literally burn us up. Use the tools we've developed here at: <a href="http://the-trusteeship.com/options.html">Options</a> to address these internal manifestations of willfulness.</li>
+<li>Inflammation of each other: In order to remedy conflicts or grievance and make amends we can work on <a href="http://the-trusteeship.com/problem-solving.html">Problem Solving</a> with each other.</li></ul>
+
+       </div>
       </div>
       <!-- / end project details --> 
 	 	
@@ -215,7 +223,7 @@
     <div class="w3-grid">
       <div class="w3-width-medium-1-2 w3-width-small-1-1">
         <div class="copyright">
-          <p>&copy; 2021 Company. All rights reserved.</p>
+          <p>&copy; 2022 Company. All rights reserved.</p>
         </div>
       </div>
       <!-- / -->
@@ -237,14 +245,15 @@
     <ul class="w3-nav w3-nav-offcanvas w3-nav-parent-icon" data-w3-nav="{multiple:true}">
       <li class="w3-parent"><a href="#"><i class="w3-icon-home"></i> Home</a>
         <ul class="w3-nav-sub">
-          <li class="w3-active"><a href="index.html">Index</a></li>
+          <li class="w3-active"><a href="index.html"> Index</a></li>
         </ul>
       </li>
-      <li class="w3-nav-header">Components</li>
+      <li class="w3-nav-header"> Components</li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-folder-open"></i> Pages</a>
         <ul class="w3-nav-sub">
-          <li><a href="log.html">Keep a Log</a></li>
-          <li><a href="results.html">Report/Redefine</a></li>
+          <li><a href="log.html"> Keep a Log</a></li>
+          <li><a href="results.html"> Report/Redefine</a></li>
+          <li><a href="open-letter.html"> Open Letter</a></li>
         </ul>
       </li>
       <li class="w3-parent"><a href="#"><i class="w3-icon-thumbs-up"></i> Resources</a>

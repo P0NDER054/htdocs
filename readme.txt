@@ -1,0 +1,9 @@
+Keep the contents of the template folder with you (along with any other records and references such as: photos, videos, or other proof you may need to substantiate your claims, by referring to and/or linking them in your log, a subdirectory, your open letter, or just to keep them safe place where you know you can find them.
+
+You can keep a copy of this website on an http server by placing all the file and folders in the root directory (public_html, or htdocs folder) and edit whenever necessary with an FTP link to the folder, but you will need to replace the domain name 'example.com' with your own domain name in the sitemap, robot text files, and in the subdirectory logs (new in this version). The new sub directories must use your domain name to link the documents properly, but if you need to keep things private don't link the log to a public page. And if you really need to keep things private, keep a written log, and your evidence off line. Whenever linking, or referring to a file or directory online (this includes robot text files which reveal private locations because we ask them to keep it private), web crawlers index the information potentially making it public on search engines. Robot text files will help to keep them off friendly search engines, but not all will respect our wishes. 
+
+I've included a datetime folder with sample subdirectory logs for each of the most recent years, and folders that you can lock for your media files. I provided a standard calendar, with a folder for each month, year and day (be sure to allow for adaptations on leap years), but there are alternate calendars, including a calendar based upon seasons with 13 weeks and 91 days per season if you'd like to make things even more private. Managing the locations can be done fairly easily with a reference table. 
+
+Please feel free to contact me for additional information or support. 
+
+Email: imidltd@protonmail.com or Tel: +01 (612) 562 5890
