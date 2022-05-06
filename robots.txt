@@ -2,14 +2,10 @@ Sitemap: http://example.com/sitemap.xml
 
 User-agent: *
 
-Disallow: /food-sources-template.html
-Disallow: /open-letter-template.html
-Disallow: /resources-template.html
-Disallow: /meetings-template.html
-Disallow: /agencies-template.html
-Disallow: /results-template.html
-Disallow: /log-template.html
-Disallow: /results.html
+Disallow: /location-3.html
+Disallow: /location-2.html
+Disallow: /location-1.html
+Disallow: /locations.html
 Disallow: /datetime
 Disallow: /log.html
 Disallow: /cgi-bin
