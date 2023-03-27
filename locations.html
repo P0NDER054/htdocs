@@ -5,53 +5,98 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="logging incidents, finding locations, establishing communication, making contact">
-<meta name="description" content="How to keep a log, find a safe location, and establish communication."/>
-<meta name="application-name" content="IMID"/>
-<meta name="generator" content="IMID Ltd"/>
-<meta name="author" content="The Trusteeship"/>
+<meta name="description" content="How to keep a log, find a safe location, and establish communication.">
+<meta name="application-name" content="IMID">
+<meta name="generator" content="IMID Ltd">
+<meta name="author" content="The Trusteeship">
+
+<!-- Fonts -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="css/w3.css"/>
+<link rel="stylesheet" type="text/css" href="css/w3.css">
 
-<!-- FAVICONS -->
+<!-- Mobile Sidebar Menu Javascript -->
 
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico"/>
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
-<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
+ <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<!-- Favicons -->
+
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico">
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.png">
+<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 
 </head>
-<body>
-<div class="w3-bar w3-white">
-  <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
-  <a href="log.html" class="w3-bar-item w3-button w3-mobile">Log</a>
-  <a href="locations.html" class="w3-bar-item w3-button w3-mobile">Locations</a>
-  <a href="open-letter.html" class="w3-bar-item w3-button w3-mobile">Open Letter</a>
-  <div class="w3-dropdown-hover w3-mobile">
-    <button class="w3-button">Resources <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block w3-light-grey">
-      <a href="agencies.html" class="w3-bar-item w3-button w3-mobile">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button w3-mobile">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button w3-mobile">Meeting Places</a>
+ <body>
+
+<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
+  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
+  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
+<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+ </div>
+</div>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+ </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
     </div>
   </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-right w3-mobile">Contact</a>
-</div>
-
+  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
+<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close</button>
+   	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="log.html" class="w3-bar-item w3-button">Log</a>
+	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+ </div>
+ 
 <!-- ===================================== 
   SUBTITLE
 ===================================== -->
 <div class="w3-row">
 	<div class="w3-container">
 		<div class="w3-mobile w3-cell-middle">
-  			<div class="w3-display-container w3-hover-opacity" style="width:100%">
-    				<img src="images/brakets.jpg" class="w3-image" alt="Locations">
+  			<div class="w3-display-container w3-hover-opacity">
+    				<img src="images/direction.jpg" style="margin-bottom:30px" class="w3-image" alt="Direction">
     			<div class="w3-display-middle w3-display-hover">
   					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
           				<li><a href="location-1.html">Location 1</a></li>
@@ -64,29 +109,30 @@
 	</div>
 </div>
 
-<section class="w3-container w3-padding">
+<!-- Body Content -->
+
+<div id="main">
+<section class="w3-container w3-large">
     <h1 style="text-align: center; margin-bottom:20px;">Former Locations</h1>
 <div class="w3-row-padding">
-  <div class="w3-third w3-cell">
-          <a href="https://goo.gl/maps/JQUvLnKe54AbPM4f8"><img style="width:100%" src="http://imid.ltd/images/berkeley.jpg" alt="The Media Development Group" /></a>
+  <div class="w3-third w3-container">
+  <!-- insert a link to the location your from with the first #, and replace the location named at images (placeholder.jpg) with the name of your image -->
+          <a href="#"><img style="width:100%;" src="images/placeholder.jpg" alt="image description" ></a>
 
-          <p>This, the location of my first web publishing ventures was one of the earliest multimedia efforts in our community in 1996 and <em>we were all very excited about the new opportunity to publish for ourselves!</em><br /><br />
-      
-      Some of the old restraints were still in place, such as the need for a license to publish, which I dutifully paid for despite the fact that I couldn't really afford the rent.</p>
+          <p>What it was like.</p>
   </div>
-  <div class="w3-third w3-cell">
-          <a href="https://goo.gl/maps/hBnUtYpsSTx3wcDLA"><img style="width:100%" src="http://imid.ltd/images/poole.jpg" alt="The Medical Sector IT Project" /></a>
+  <div class="w3-third w3-container">
+    <!-- insert a link to the pivotal location with the first #, and replace the location named at images (placeholder.jpg) with the name of your image -->
+          <a href="#"><img style="width:100%;" src="images/placeholder.jpg" alt="image description" ></a>
 
-          <p>During the winter of 2007-2008 I had an opportunity to work with a Governess afflicted by rivalry but very good to her people.<br /><br />
-
-<p>She's an honorable woman of great strength, spirit and compassion who helped me to connect to people from the same industry as my father in other parts of the world, including Russia, but we were lucky to be in England where the Internet began in earnest.</p>
+          <p>What happened.</p>
        
   </div>
-  <div class="w3-third w3-cell">
+  <div class="w3-third w3-container">
+  <!-- insert a link to your current location with the first #, and replace the location named at images (placeholder.jpg) with the name of your image -->
+          <a href="#"><img style="width:100%;" src="images/placeholder.jpg" alt="image description" ></a>
 
-          <a href="https://goo.gl/maps/LSXXviXzxWFUdtQc9"><img style="width:100%" src="http://imid.ltd/images/southeast.jpg" alt="Childhood home" /></a>
-
-          <p>Dinky-town, where we went to school - and the greater metropolitan area where we live is compromised by a rare adaptation few are capable of discussing, or disseminating without encountering Constitutional Limitations. <br /><br />(Discussion of problems like pollution and various forms of infestation such as rats and parasites is considered to be rude by many, so my camera and microscope were stolen when I started publishing on these subjects).</p>
+          <p>What it's like now.</p>
   </div>
 </div>
 </section>
@@ -96,11 +142,13 @@
   <a href="location-1.html" class="w3-button">1</a>
   <a href="location-2.html" class="w3-button">2</a>
   <a href="location-3.html" class="w3-button">3</a>
-  <a href="location-1.html" class="w3-button">&raquo;</a>
+  <a href="locations.html" class="w3-button">&raquo;</a>
 </div> 
 </div>
+</div>
+
 <div class="w3-container w3-padding-large w3-light-grey">
-  <p style="text-align:center">&copy; 1996-2022 <a href="http://the-trusteeship.com/">The Trusteeship IMID</a> All Rights Reserved</p>
+   <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Company</a> All Rights Reserved</p>
 </div> 
 </body>
 </html>

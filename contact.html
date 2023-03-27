@@ -5,51 +5,95 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="logging incidents, finding locations, establishing communication, making contact">
-<meta name="description" content="How to keep a log, find a safe location, and establish communication."/>
-<meta name="application-name" content="IMID"/>
-<meta name="generator" content="IMID Ltd"/>
-<meta name="author" content="The Trusteeship"/>
+<meta name="description" content="How to keep a log, find a safe location, and establish communication.">
+<meta name="application-name" content="IMID">
+<meta name="generator" content="IMID Ltd">
+<meta name="author" content="The Trusteeship">
+
+<!-- Fonts -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="css/w3.css"/>
+<link rel="stylesheet" type="text/css" href="css/w3.css">
 
-<!-- FAVICONS -->
+<!-- Mobile Sidebar Menu Javascript -->
 
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico"/>
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
-<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
+ <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<!-- Favicons -->
+
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico">
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.png">
+<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 
 </head>
-<body>
+ <body>
 
-<div class="w3-bar w3-padding-large w3-light-grey">
-  <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
-  <a href="log.html" class="w3-bar-item w3-button w3-mobile">Log</a>
-  <a href="locations.html" class="w3-bar-item w3-button w3-mobile">Locations</a>
-  <a href="open-letter.html" class="w3-bar-item w3-button w3-mobile">Open Letter</a>
-  <div class="w3-dropdown-hover w3-mobile">
-    <button class="w3-button">Resources <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block w3-light-grey">
-      <a href="agencies.html" class="w3-bar-item w3-button w3-mobile">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button w3-mobile">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button w3-mobile">Meeting Places</a>
+<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
+  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
+  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
+<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+ </div>
+</div>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+ </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
     </div>
   </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-right w3-mobile">Contact</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
+<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close</button>
+   	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="log.html" class="w3-bar-item w3-button">Log</a>
+	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
  </div>
  
 <div class="w3-row">
 	<div class="w3-container">
 		<div class="w3-mobile w3-cell-middle">
   			<div class="w3-display-container w3-hover-opacity" style="width:100%">
-    				<img src="images/mother-daughter-team.jpg" class="w3-image" alt="Mother and Daughter Team">
+    				<img src="images/expedition.jpg" class="w3-image" alt="Journaling an Expedition">
     			<div class="w3-display-middle w3-display-hover">
   					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
           				<li><a href="index.html">Home</a></li>
@@ -62,31 +106,35 @@
 	</div>
 </div>
 
-<section class="w3-container w3-padding">
+<!-- Body Content -->
+
+<div id="main">
+<section class="w3-container w3-padding w3-large">
   <h1 style="text-align:center">Contact us</h1>
  <div class="w3-row-padding">
   <div class="w3-container w3-threequarter">
-            <p><strong>The Trusteeship IMID</strong> (Formerly, The Media Development Group, Web Dissemination, IMID Incorporated, and IMID Limited), AKA <b>IMID Ltd</b></p>
-    <iframe style="width:100%"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127372.76596838175!2d-93.33168951340345!3d44.97079693803053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C%20MN!5e1!3m2!1sen!2sus!4v1652744738419!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><strong>Some Company</strong></p>
+    <iframe style="width:100%; border:0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127372.76596838175!2d-93.33168951340345!3d44.97079693803053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C%20MN!5e1!3m2!1sen!2sus!4v1652744738419!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   <div class="w3-container w3-quarter w3-padding">
-   		<h3 class="w3-panel-title">AKA <strong>IMID</strong></h3>
-          <p><b>A Common Law Trust</b><br>
-            <p>PO Box 13001<br>
-            1316 5th St SE<br>
-Minneapolis MN 55414</p>
-          <p><strong>Telephone</strong><br />
-            <p><a href="tel:(612)562-5890">(612) 562 5890</a></p>
-            <p><strong>Email</strong> <br />
-            <p><a href="mailto:admin@imid-ltd.com">admin@imid-ltd.com</a></p>
-          <h3 class="w3-panel-title m-top-30">Business Hours</h3>
+   		<h3 class="w3-panel-title"><strong>Some Company</strong></h3>
+          <p><b>Some tagline</b><br>
+            <p>Some Street<br>
+Some City, Some State, Some Zip</p>
+          <p><strong>Some Telephone</strong><br>
+            <p><a href="tel:(***)***-****">(***) *** ****</a></p>
+            <p><strong>Some Email Address</strong> <br>
+            <p><a href="mailto:****@****.***">****@****.***</a></p>
+          <h3 class="w3-panel-title m-top-30">Some Business Hours</h3>
           <p> <strong> Mon to Fri:</strong> 9am to 5pm<br>
             <strong>Sat:</strong> 11am to 3pm<br>
             <strong>Sun:</strong> closed </p>
 	</div>
+  </div>
 </section>
-      		 
+</div>
+    		 
 <div class="w3-container w3-padding-large w3-light-grey">
- <p style="text-align:center">&copy; 1996-2022 <a href="http://the-trusteeship.com/">The Trusteeship IMID</a> All Rights Reserved</p></div> 
+ <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Domain</a> All Rights Reserved</p></div> 
 </body>
 </html>

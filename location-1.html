@@ -5,44 +5,89 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="logging incidents, finding locations, establishing communication, making contact">
-<meta name="description" content="How to keep a log, find a safe location, and establish communication."/>
-<meta name="application-name" content="IMID"/>
-<meta name="generator" content="IMID Ltd"/>
-<meta name="author" content="The Trusteeship"/>
+<meta name="description" content="How to keep a log, find a safe location, and establish communication.">
+<meta name="application-name" content="IMID">
+<meta name="generator" content="IMID Ltd">
+<meta name="author" content="The Trusteeship">
+
+<!-- Fonts -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="css/w3.css"/>
+<link rel="stylesheet" type="text/css" href="css/w3.css">
 
-<!-- FAVICONS -->
+<!-- Mobile Sidebar Menu Javascript -->
 
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico"/>
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
-<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
+ <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<!-- Favicons -->
+
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico">
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.png">
+<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 
 </head>
-<body>
-<div class="w3-bar w3-white">
-  <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
-  <a href="log.html" class="w3-bar-item w3-button w3-mobile">Log</a>
-  <a href="locations.html" class="w3-bar-item w3-button w3-mobile">Locations</a>
-  <a href="open-letter.html" class="w3-bar-item w3-button w3-mobile">Open Letter</a>
-  <div class="w3-dropdown-hover w3-mobile">
-    <button class="w3-button">Resources <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block w3-light-grey">
-      <a href="agencies.html" class="w3-bar-item w3-button w3-mobile">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button w3-mobile">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button w3-mobile">Meeting Places</a>
+ <body>
+
+<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
+  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
+  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
+<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+ </div>
+</div>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+ </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
     </div>
   </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-right w3-mobile">Contact</a>
-</div>
+  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
+<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close</button>
+   	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="log.html" class="w3-bar-item w3-button">Log</a>
+	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+ </div>
 
 <!-- ===================================== 
   SUBTITLE
@@ -50,8 +95,8 @@
 <div class="w3-row">
 	<div class="w3-container">
 		<div class="w3-mobile w3-cell-middle">
-  			<div class="w3-display-container w3-hover-opacity" style="width:100%">
-    				<img src="images/brakets.jpg" class="w3-image" alt="Locations">
+  			<div class="w3-display-container w3-hover-opacity">
+    				<img src="images/direction.jpg" style="margin-bottom:30px" class="w3-image" alt="Direction">
     			<div class="w3-display-middle w3-display-hover">
   					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
           				<li><a href="location-1.html">Location 1</a></li>
@@ -64,36 +109,28 @@
 	</div>
 </div>
 
-<section class="w3-container w3-padding"> 
-<h1 style="text-align: center; margin-bottom:30px;">The last State didn't work either</h1>
+<!-- Body Content -->
+
+<div id="main">
+<section class="w3-container w3-padding w3-large"> 
+<h1 style="text-align: center; margin-bottom:30px;">Where I come from</h1>
 <div class="w3-row-padding">
   <div class="w3-third w3-cell">
 
-        <p>I returned to the old neighborhood because someone asked me to set matters straight with Davy (who I hit with a baseball bat), and realized that then I would also have to own my behavior with respect to another crime there at Husted Steel.</p> 
+        <p>What it was like.</p> 
 
-<p>Since Ricky died, and he was the only Native I knew, I would have to settle things with Jimmy (who was like the Capone of our group) to get right about it. It wouldn't do for me to rat them out, even if I only watched the crime take place.</p> 
-
-<p>I suffered a few other bad influences during my stay in the neighborhood, but the guy who helped me go straight was hit by a car. We helped him to learn to catch a ball again after that incident, and it made me wonder about what kind of justice there really is in the world.</p> 
-
-
-      <p>Somethings disturbed me so badly that I had to think them over, like: was what he was saying really true, or was just trying to find out more about me. My Step-Dad, who was famous for psyching us out, told me stories about warming up the sheets by rubbing his feet on them with his brother Vince on cold nights. So I returned to my mission in earnest and started by calling Husted Steel, who by the time I got around to it was listed as a tenant at the Electronic Machinery Corporation.</p> </div> 
+</div> 
   <div class="w3-third w3-cell">
-<img src="http://imid.ltd/images/lighthouse.png" style="width:100%;" alt="A lighthouse upstream from the locks seems strange, but it's fairly close to the falls and serves as fair warning to downstream traffic.">
-<p>Jimmy was the real deal. I don't think he'd expect us to go 'up the river' or anything, but I do believe he took a hit from his big brother.</p>
+
+<p>What happened.</p>
   </div>
   <div class="w3-third w3-cell">
-     <p>As it happened, I threw out my ID (drivers license, birth certificate, and SS card) over the trestle by the place out of sheer disgust when I was a young man, and my name may have had something to do with the developments there - even after I headed out west, but the receptionist claimed that Husted had only leased a room for a year or so after leaving their old location, so I wasn't able to make my amends directly to them at all.</p> 
+     <p>What it's like now.</p> 
     
-<p>Fortunately, Metal Matic, just down the block, makes tubing out of steel all day long, and I don't feel so bad about it anymore. It sure serves as a good example of how making the effort can work out.</p>
- 
-
-<p>We left shortly after my friend from across the alley left, but the old County was moving feces from their treatment plant all the way out to the new County to replenish the inch or so of soil that went missing every year on the sod farms we were harvesting, so it was clear to me that we wouldn't escape our fate by moving at all anyway.</p> 
-
- <p>I believe building the Mission worked. We did find a safer way to meet our basic needs. Unfortunately, it took a lot longer than it should've because we were sorely distracted from our duty to Davy by the dire need to prove what our neighbor across the alley said was true.</p>
   </div>
 </div>
 </section>
-<div class="w3-row-padding w3-center">
+<div class="w3-row-padding w3-large w3-center">
  <div class="w3-bar w3-text-center">
   <a href="locations.html" class="w3-button">&laquo;</a>
   <a href="location-1.html" class="w3-button">1</a>
@@ -102,8 +139,10 @@
   <a href="location-2.html" class="w3-button">&raquo;</a>
 </div> 
 </div>
-<div class="w3-container w3-padding-large w3-light-grey">
-  <p style="text-align:center">&copy; 1996-2022 <a href="http://the-trusteeship.com/">The Trusteeship IMID</a> All Rights Reserved</p>
+</div>
+
+<div class="w3-container w3-padding w3-large w3-light-grey">
+  <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Company</a> All Rights Reserved</p>
 </div> 
 </body>
 </html>

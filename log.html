@@ -1,48 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>The Trusteeship</title>
+<title>Log & Report</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="logging incidents, finding locations, establishing communication, making contact">
-<meta name="description" content="How to keep a log, find a safe location, and establish communication."/>
-<meta name="application-name" content="IMID"/>
-<meta name="generator" content="IMID Ltd"/>
-<meta name="author" content="The Trusteeship"/>
+<meta name="description" content="How to keep a log, find a safe location, and establish communication.">
+<meta name="application-name" content="IMID">
+<meta name="generator" content="IMID Ltd">
+<meta name="author" content="The Trusteeship">
+
+<!-- Fonts -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="css/w3.css"/>
+<link rel="stylesheet" type="text/css" href="css/w3.css">
 
-<!-- FAVICONS -->
+ <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
 
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico"/>
-<link rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
-<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<!-- Favicons -->
+
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.ico">
+<link rel="shortcut icon" sizes="16x16" href="images/favicon.png">
+<link rel="shortcut icon" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="32x32" href="images/apple-touch-icon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 
 </head>
-<body>
+ <body>
 
-<div class="w3-bar w3-padding-large w3-light-grey">
-  <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
-  <a href="log.html" class="w3-bar-item w3-button w3-mobile">Log</a>
-  <a href="locations.html" class="w3-bar-item w3-button w3-mobile">Locations</a>
-  <a href="open-letter.html" class="w3-bar-item w3-button w3-mobile">Open Letter</a>
-  <div class="w3-dropdown-hover w3-mobile">
-    <button class="w3-button">Resources <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block w3-light-grey">
-      <a href="agencies.html" class="w3-bar-item w3-button w3-mobile">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button w3-mobile">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button w3-mobile">Meeting Places</a>
+<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
+  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
+  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
+<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+ </div>
+</div>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+ <div class="w3-dropdown-content w3-bar-block">
+  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+ </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
     </div>
   </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-right w3-mobile">Contact</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
+<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close</button>
+   	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="log.html" class="w3-bar-item w3-button">Log</a>
+	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
  </div>
 
 <!-- ===================================== 
@@ -50,14 +92,14 @@
 ===================================== -->
 <div class="w3-row">
 	<div class="w3-container">
-		<div class="w3-mobile w3-cell-middle"><h2 style="text-align:center">Log & Report</h2>
-  			<div class="w3-display-container w3-hover-opacity" style="width:100%">
-    				<img src="images/incubator.jpg" class="w3-image" alt="Incubator">
-    			<div class="w3-display-middle">
-  					<ul class="w3-ul w3-center w3-text-green w3-medium">
+		<div class="w3-mobile w3-cell-middle">
+  			<div class="w3-display-container w3-hover-opacity">
+    				<img src="images/spilled-ink.jpg" style="margin-bottom:30px" class="w3-image" alt="Spilled Ink">
+    			<div class="w3-display-middle w3-display-hover">
+  					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
+          			    <li class="w3-active"><a href="log.html">Log & Report</a></li>
+          				<li><a href="log-template.html">Log Template Example</a></li>
           				<li><a href="template.zip">Download Template</a></li>
-          				<li><a href="https://youtu.be/3-3O3ZQKSFs">Learn to Edit on Your Own</a></li>
-          				<li><a href="log.html">Live with an Example</a></li>
         			</ul>
     			</div>
   			</div>   
@@ -65,108 +107,108 @@
 	</div>
 </div>
 
-<article class="w3-container w3-padding"> 
- <div class="w3-row-padding">
-  <div class="w3-half w3-cell">
-        <h1>Creative Freedoms of Expression</h1>
-        <p>January 31, 2022 by <a href="http://imid.ltd">IMID</a></p>
+<!-- Body Content -->
 
-         <p>(How to reframe explicit language)</p>
-<p>Even if I was offended by a father I didn't know well, or the emergence of a power of creation we don't always have control over, after careful study of spiritual teachings, I realize that we'll only be conscious of God if we clear away our anger and fear to experience God within. God needs to see himself in our community to provide sound guidance. And, we need His guidance because we're normally too preoccupied with our own activity to fully realize the consequences of our behavior.</p>
-
-<p>Our parents may not be the best example of God in our lives, but when we're children, <em>there is no safer source of experience to turn to. They too, live with our genes and are <b>best able to teach us adaptations to an environment that may not always be friendly to our own particular traits.</b></em></p>
- <h2>Just Because</h2>
-        <p><em>Just because <b>why?</b></em></p>
-        <blockquote>
-          <p>Just because IMIDs include Thalidimide doesn't mean that <b>IMID</b> will cause birth defects! <br><em>Life continues to adapt <b>despite the threats we face.</b></em></p>
-        </blockquote>      
-<h4>Circumstances Leading to the need for Web Publication</h4>
-<h6>The Application of Mind Control</h6>
-<p>As early 1920: Swiss Scientist Rudolph Hess determined that he could induce various behavioral states by probing the brain with wires.</p>
-<p>1953: <a href="https://blogs.scientificamerican.com/cross-check/tribute-to-jose-delgado-legendary-and-slightly-scary-pioneer-of-mind-control/">Jose Delgado</a> uses a radio controlled stimoceiver to stop a charging bull.</p>
-<h6>The Development of IMiDs</h6>
-<p>1953: The use of the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922408/">IMID</a>, Thalidomide is discovered in Switzerland.</p>
-<p>1956-1960: Thalidimide is introduction and prescribed for widespread use in Germany.</p>
-<p>1961: Birth defects are associated with it's use.</p>
-<p>1964: A doctor in Jerusalem found a dramatic resolution of a lepra skin eruption upon administration of Thalidomide which was confirmed in 1965. The <a href="https://www.who.int/">WHO</a> published the results in 1971.</p>
-<p>1998: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0149291800882892">The Steps Program</a> is implemented to control and monitor access to Thalidomide.</p>
-<p>2004-2010: Analogs of <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922408/">IMiDs</a> are studied in clinical trials to treat resistant tumors.</p>
-<hr>
-<h4>Other Relevant Timelines</h4>
-<ul>
-<li>1990: I studied the vivisection of Monkeys at UC Berkeley to compose a thesis on the capacity of the Visual Cortex to remain conscious of the world outside of our field of view.</li>
-<li>1994: I studied Multimedia Computing at San Francisco State University.</li>
-<li>September 1996: Formed the Media Development Group, the first of many efforts to become self-supporting.</li>
-<li>1996: Publishing newsletters for local Missions by email results in efforts to use html, javascript and css instead.</li> 
-<li>1996: Organized in an effort to close a Hospital by ending County based referrals (Hospital Staff was accused improperly restraining three patients that died).</li>
-<li>1996: Recruited to work as an advocate for vulnerable adults in the healthcare system.</li>
-<li>1997: Granted a conditional release after being convicted of reckless driving (trying to get home on a flat).</li>
-<li>October 1998: Encountered a <a href="http://imid.ltd/hate-crime-scene.html">Hate Crime Scene</a> while traveling to respond to a confession made by my daughter.</li>
-<li>Fall 1998: Unable to reach my daughter with and without agency support out of concern for her safety.</li>
-<li>2001: Formed the corporation Interactive Multimedia Information Dissemination Incorporated (AKA IMID Ltd)</li>
-<li>2012: Formed the LLC IMID Limited (AKA IMID Ltd)</li>
-<li>2016: Established the Common Law Trust The Trusteeship IMID, and participated in a study at the <a href="https://goo.gl/maps/TbMKnuRYFDsACXSb6">University</a> on the control of computers by intention.</li>
-<li>Currently unable to make amends to those who I can no longer reach without.</li>
-</ul>
- </div>
-        
-  
-  <div class="w3-half w3-cell">
-    <h2>About</h2>
- <p>It was suggested to me early in my career to keep a log and most of my work was intended protect and defend children and vulnerable adults. Logging incidents or events documents the consequences of following the guidance we've been given and provides us an opportunity to reflect upon the results of our work. We hope that taking the suggestions we've been given will help others to adapt to circumstances that we may currently be unfamiliar with.</p>
- <h6>Common problems we can solve online:</h6>
-
-        <p>The problem with confusion as caused by <a href="https://en.wikipedia.org/wiki/Equivocation">equivocation</a> or <a href="https://en.wikipedia.org/wiki/Ambiguity">ambiguity</a> is that the targets of our frustration aren't clear (we've failed to define the problem well enough), and innocent people can get hurt. For example, by referring to 'the cat on the avenue' as the reason for getting lost, some might believe I refer to one of my mother's lovers when in fact it really was just a calico cat. <em>With hypertext, we can clarify the meaning of any term that might be confusing</em> to <b>clear up what's normally very taxing!</b></p>
-        <p>For example:</p> 
-    <ul>
-        <li>Even though I was <a href="https://goo.gl/maps/KTmC8DpciMN6w9TD6">offended by disruptions</a> while discovering the effects of the tingling sensation, a <em>beautiful new movement called <a href="https://en.wikipedia.org/wiki/ASMR">ASMR</a> seems to have been born to replace it</em>.
-        </li>
-    </ul>
-<p>If you can't keep a log yet, try building a Bullet Journal</p>
+<div id="main">
+<section class="w3-containter w3-padding w3-large">
+	<div class="w3-row-padding">
+  		<div class="w3-half"> 
+    
+    
+    <!-- ============================== 
+    Write a heading for your log below!
+    =============================== -->
+    
+    <h4 class="section-title">Write a Heading for Your Log Here!</h4>
       
-          <p><a href="https://youtu.be/fm15cmYU0IM">Bullet Journals</a> organize record keeping and planning on paper, so if you're having trouble publishing a log, or are getting hacked, this tool may help you manage your time more reliably to strategize a defense.</p>
-       
-          <p>We realize that many have issues that some find difficult to discuss, but find that continuing to document the results will help to more clearly identify the problem. It is my hope that we will be able to empower an average person to defend him, or herself without becoming harmful, or getting hurt. <b>We are required to report a crime if it leads to injury</b> and the resulting compensation obtained for the healthcare industry may differ from those who are covered by standard diagnostic procedures.</p>
-<hr>
-<h6><a href="http://imid.ltd/documentation.html"><b>Constitutional Limitations</b></a></h6> <p><em>A subtle fact of life</em> that applies to all of us online in the United States we believe it is one of the highest standards in the world - and <em>a precedent worthy of emulation.</em></p>
-<hr>
-<h6>Recent Events</h6>
-<ul>
-<li>Purchased an extended license for the fonts on the proprietary sites.</li>
-<li>Updated the javascript used by my sites.</li>
-<li>Added a new host and built subdomain structures to serve the registrar with a file server for each.</li>
-<li>Built a new single source site without dependancies on third party providers.</li>
-</ul>       
+    <!-- ============================================================================
+    Write the date of your most recent update within and between the brackets below!
+    ============================================================================= -->
+    
+      <p>Page updated: <time class="rev" datetime="2020-02-08">Write the date of your last revision here (And, within the date-time attribute inside the HTML bracket of the tag defining this line).</time></p>
+      <!-- =================================
+      Write a narrative for your log below!
+      ================================== -->
+      
+      <p>Write a narrative for your log here!</p>
+      
+        
+        <!-- ======================================== 
+       Write a heading for your recent events below!
+    ========================================= -->
+    
+    <h4>Write a Heading for your Recent Events Here!</h4>
+    
+        <!-- ======================================== 
+       Write a narrative for recent events below!
+    ========================================= -->
 
-          <h6>Archives</h6>
-          <ol>
-                <li><a href="http://imid.ltd/datetime/1960s/log.html"> 1960s Complete</a></li>
-                <li><a href="http://imid.ltd/datetime/1970s/log.html"> 1970s Complete</a></li>
-              <li><a href="http://imid.ltd/datetime/1980s/log.html"> 1980s Complete</a></li>
-                <li><a href="http://imid.ltd/datetime/1986/log.html"> 1986</a></li>
-              <li><a href="http://imid.ltd/datetime/1990s/log.html"> 1990s Complete</a></li>
-                <li><a href="http://imid.ltd/datetime/1998/log.html"> 1998</a></li>
-                <li><a href="http://imid.ltd/datetime/1999/log.html"> 1999</a></li>
-                <li><a href="http://imid.ltd/datetime/2000s/log.html"> 2000s Complete</a></li>
-              <li><a href="http://imid.ltd/datetime/2010s/log.html"> 2010s Complete</a></li>
-                <li><a href="http://imid.ltd/datetime/2011/log.html"> 2011</a></li>
-                <li><a href="http://imid.ltd/datetime/2014/log.html"> 2014</a></li>
-                <li><a href="http://imid.ltd/datetime/2016/log.html"> 2016</a></li>
-                <li><a href="http://imid.ltd/datetime/2017/log.html"> 2017</a></li>
-                <li><a href="http://imid.ltd/datetime/2018/log.html"> 2018</a></li>
-                <li><a href="http://imid.ltd/datetime/2019/log.html"> 2019</a></li>
-                <li><a href="http://imid.ltd/datetime/2020/log.html"> 2020</a></li>
-                <li><a href="http://imid.ltd/datetime/2021/log.html"> 2021</a></li>
-                <li><a href="http://imid.ltd/datetime/2022/log.html"> 2022</a></li>
-                <li><a href="http://imid.ltd/datetime/2022/03/log.html">March 2022</a></li>
-                <li><a href="http://imid.ltd/datetime/2022/04/log.html">April 2022</a></li>
-          </ol>
-        </div>
-      </div>
-</article>
+    <p>Write a narrative for recent events here!</p>
+    
+    <!-- =================================== 
+       Write your recent events entries below!
+    ==================================== -->
+    
+      <ul>
+        <li>Date, Time, Location: Incident one.</li>
+        <li>Date, Time, Location: Incident two.</li>
+      </ul>
+   
+</div>
+<div class="w3-half">
+        
+        
+    <!-- ====================================================== 
+       Write a heading for your incident/event log below!
+    ======================================================== -->
+    
+    <h4>Write a Heading for your incident/event log here!</h4>
+    
+    <!-- =====================================
+       Write a narrative for prior events below!
+    ====================================== -->
+    
+    <p>Write a narrative for Prior Events here!</p>
+    
+     <!-- ==========================================
+      Describe events prior to recent events.
+    =========================================== -->
+    
+    <ol>
+      <li>Date, Time, Location: Incident one.</li>
+      <li>Date, Time, Location: Incident two.</li>
+    </ol>
+
+        
+        <!-- ====================================================== 
+       Write a heading for previous logs below!
+    ======================================================== -->
+    
+        <h4>Write a Heading for prior logs Here!</h4>
+        
+        <!-- ======================================== 
+       Write a narrative for prior logs below!
+    ========================================= -->
+    
+    <p>Write a narrative for prior logs here!</p>
+        
+        <!-- ==========================================
+      Make a list of your prior logs below
+    =========================================== -->
+
+    <ul>
+      <li><a href="http://example.com/datetime/2020/log.html">Log 2020</a></li>
+      <li><a href="http://example.com/datetime/2021/log.html">Log 2021</a></li>
+       <li><a href="http://example.com/datetime/2022/log.html">Log 2022</a></li>
+    </ul>
+    
+    </div>
+  </div>
+</section>
+</div>
  
 <div class="w3-container w3-padding-large w3-light-grey">
-  <p style="text-align:center">&copy; 1996-2022 <a href="http://the-trusteeship.com/">The Trusteeship IMID</a> All Rights Reserved</p>
+   <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Company</a> All Rights Reserved</p>
 </div> 
 </body>
 </html>
