@@ -13,7 +13,6 @@
 <!-- Fonts -->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
@@ -49,68 +48,78 @@ function w3_close() {
 </head>
  <body>
 
-<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
-<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
-  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
-  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
-<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+<!-- Navbar -->
+
+<div class="w3-navbar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+	<img style="width:144px;" class="w3-left w3-hide-medium w3-hide-small" src="images/logo.png" alt="IMID">
+		<a href="index.html" class="w3-bar-item w3-button w3-hide-medium"><i class="fa fa-home"></i>&nbsp;Home</a>
+  		<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-hourglass-start"></i>&nbsp;Log</a>
+  	 	<a href="locations.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-location-arrow"></i>&nbsp;Locations</a>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-small">Illustrations <i class="fa fa-caret-down"></i></button>
  <div class="w3-dropdown-content w3-bar-block">
-  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+  	 	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   		<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
  </div>
 </div>
 <div class="w3-dropdown-hover">
-    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+    <button class="w3-button w3-hide-small">Adaptations <i class="fa fa-caret-down"></i></button>
  <div class="w3-dropdown-content w3-bar-block">
-  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
-   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+  		<a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      	<a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      	<a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
  </div>
 </div>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block">
-      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
-    </div>
-  </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
-<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+  		<a href="contact.html" class="w3-bar-item w3-button w3-hide-medium"><i class="fa fa-envelope"></i>&nbsp;Contact</a>
+	<img class="w3-right w3-hide-large" style="width:114px;" src="images/flogo.png" alt="IMID">
+</div>
+
+<!-- Off Canvas Nav -->
+
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close</button>
    	<a href="index.html" class="w3-bar-item w3-button">Home</a>
 	<a href="log.html" class="w3-bar-item w3-button">Log</a>
 	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
-	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
 	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
-	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   	<a href="resources.html" class="w3-bar-item w3-button">Resources</a>
+   	<a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+    <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+    <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
 	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
- </div>
-
-<!-- ===================================== 
-  SUBTITLE
-===================================== -->
-<div class="w3-row">
-	<div class="w3-container">
-		<div class="w3-mobile w3-cell-middle">
-  			<div class="w3-display-container w3-hover-opacity">
-    				<img src="images/spilled-ink.jpg" style="margin-bottom:30px" class="w3-image" alt="Spilled Ink">
-    			<div class="w3-display-middle w3-display-hover">
-  					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
-          			    <li class="w3-active"><a href="log.html">Log & Report</a></li>
-          				<li><a href="log-template.html">Log Template Example</a></li>
-          				<li><a href="template.zip">Download Template</a></li>
-        			</ul>
-    			</div>
-  			</div>   
-  		</div>
-	</div>
 </div>
 
 <!-- Body Content -->
 
-<div id="main">
-<section class="w3-containter w3-padding w3-large">
+<div id="main" class="w3-padding-64 w3-medium">
+
+	<!-- Header -->
+
+	<div class="w3-container w3-padding-32 w3-col">
+  		<div class="w3-display-container w3-hover-opacity">
+    			<img src="images/spilled-ink.jpg" style="margin-bottom:30px" class="w3-image" alt="Spilled Ink">
+    		<div class="w3-display-middle w3-display-hover">
+  				<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
+          			 <li><a href="log.html">Log & Report</a></li>
+          			<li><a href="log-template.html">Log Template Example</a></li>
+          			<li><a href="http://imid.ltd/template.zip">Download Template</a></li>
+        		</ul>
+    		</div>
+  		</div>   
+  	</div>
+
+
+<!-- Subtitle -->
+
+	<h1 style="text-align: center; margin-bottom:20px;">Log & Report</h1>
+	
+		<div class="w3-cell-row">
+			<div class="w3-cell w3-padding w3-mobile">
+			  
+			  <!-- Begin columns -->
+			  
 	<div class="w3-row-padding">
   		<div class="w3-half"> 
     
@@ -122,93 +131,93 @@ function w3_close() {
     <h4 class="section-title">Write a Heading for Your Log Here!</h4>
       
     <!-- ============================================================================
-    Write the date of your most recent update within and between the brackets below!
+    Write in the date of your last revision within and between the brackets below!
     ============================================================================= -->
     
-      <p>Page updated: <time class="rev" datetime="2020-02-08">Write the date of your last revision here (And, within the date-time attribute inside the HTML bracket of the tag defining this line).</time></p>
+      <p><time class="rev" datetime="2020-02-08">Write in the date of your last revision here (And, within the date-time attribute inside the HTML bracket of the tag defining this line).</time></p>
+      
       <!-- =================================
-      Write a narrative for your log below!
+      	  Describe an Incident
       ================================== -->
       
-      <p>Write a narrative for your log here!</p>
-      
-        
-        <!-- ======================================== 
-       Write a heading for your recent events below!
-    ========================================= -->
+    <div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-small"><b>Add an Incident</b></button>  
+        <div id="id01" class="w3-modal">
+  			<div class="w3-modal-content">
     
-    <h4>Write a Heading for your Recent Events Here!</h4>
-    
-        <!-- ======================================== 
-       Write a narrative for recent events below!
-    ========================================= -->
+    <header class="w3-container w3-indigo"> 
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <h2>Write a heading for your Incident Here</h2>
+    </header>
 
-    <p>Write a narrative for recent events here!</p>
+    	<div class="w3-container">
+      <p>Describe the details here</p>
+      <p>(Text...) <a href="#">links</a> etc.</p>
+    	</div>
+
+    <footer class="w3-container w3-indigo">
+      <p>Modal Footer</p>
+    </footer>
     
-    <!-- =================================== 
-       Write your recent events entries below!
+	</div>
+  </div>
+</div>
+ 
+  <!-- =================================== 
+       Describe your goals!
     ==================================== -->
     
+  <h4 class="section-title">Describe your goals for keeping these records, such as:</h4>  
       <ul>
-        <li>Date, Time, Location: Incident one.</li>
-        <li>Date, Time, Location: Incident two.</li>
-      </ul>
+        <li>I need to keep track of what's going on.</li>
+        <li>I'd like to report the results of doing what I was told.</li>
+      </ul>  
+    
    
 </div>
 <div class="w3-half">
         
-        
+     <!-- =================================== 
+       Write out what happened before below!
+    ==================================== -->
+    
+  <h4 class="section-title">What happened before the incident?</h4>  
+        <p>(Date, Time, Location: Event one.)</p>
+        <p>(Date, Time, Location: Event two.)</p>
+         
     <!-- ====================================================== 
-       Write a heading for your incident/event log below!
+       		Write out what happened after below!
     ======================================================== -->
     
-    <h4>Write a Heading for your incident/event log here!</h4>
-    
-    <!-- =====================================
-       Write a narrative for prior events below!
-    ====================================== -->
-    
-    <p>Write a narrative for Prior Events here!</p>
-    
-     <!-- ==========================================
-      Describe events prior to recent events.
-    =========================================== -->
-    
-    <ol>
-      <li>Date, Time, Location: Incident one.</li>
-      <li>Date, Time, Location: Incident two.</li>
-    </ol>
-
-        
-        <!-- ====================================================== 
-       Write a heading for previous logs below!
-    ======================================================== -->
-    
-        <h4>Write a Heading for prior logs Here!</h4>
-        
-        <!-- ======================================== 
-       Write a narrative for prior logs below!
-    ========================================= -->
-    
-    <p>Write a narrative for prior logs here!</p>
-        
-        <!-- ==========================================
+   <h4 class="section-title">What happened after the incident?</h4>  
+      <p>(Date, Time, Location: Event one.)</p>
+        <p>(Date, Time, Location: Event two.)</p>
+     
+      
+    <!-- ==========================================
       Make a list of your prior logs below
     =========================================== -->
 
     <ul>
-      <li><a href="http://example.com/datetime/2020/log.html">Log 2020</a></li>
-      <li><a href="http://example.com/datetime/2021/log.html">Log 2021</a></li>
-       <li><a href="http://example.com/datetime/2022/log.html">Log 2022</a></li>
+      <li><a href="datetime/2020/log.html">Log 2020</a></li>
+      <li><a href="datetime/2021/log.html">Log 2021</a></li>
+       <li><a href="datetime/2022/log.html">Log 2022</a></li>
+       <li><a href="datetime/2023/log.html">Log 2023</a></li>
     </ul>
     
     </div>
   </div>
-</section>
+ </div>
 </div>
  
-<div class="w3-container w3-padding-large w3-light-grey">
-   <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Company</a> All Rights Reserved</p>
-</div> 
-</body>
+<!-- footer -->
+
+  	 <div class="w3-cell-row">
+		<div class="w3-cell w3-padding w3-mobile">
+  <p style="text-align:center">&copy; 1996-2023, <a href="http://the-trusteeship.com">The Trusteeship</a> (<a href="http://imid.ltd">IMID</a>) | All Rights Reserved.</p>
+    <p style="text-align:center"><a href="http://trustee-ship.us/site-map.html">Site Map</a> | <a href="http://imid.ltd/privacy-policy.html">Privacy Policy</a></p>
+  		</div>
+	</div>
+ </body>
 </html>

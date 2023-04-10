@@ -13,7 +13,6 @@
 <!-- Fonts -->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- CSS -->
 
@@ -51,51 +50,56 @@ function w3_close() {
 </head>
  <body>
 
-<div class="w3-bar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-opacity w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
-<img style="width:144px" class="w3-left w3-hide-small w3-hide-medium" src="images/logo.png" alt="Logo">
-  	<a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
-  	<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs"></i>&nbsp;<b>Log</b></a>
-<div class="w3-dropdown-hover"><button class="w3-button w3-hide-medium w3-hide-small"><b>Consequences</b> <i class="fa fa-caret-down"></i></button>
+<!-- Navbar -->
+
+<div class="w3-navbar w3-top w3-padding w3-large"><button id="openNav" class="w3-button w3-left w3-text-orange w3-hide-large w3-xlarge" onclick="w3_open()">&#9776;</button> 	
+	<img style="width:144px;" class="w3-left w3-hide-medium w3-hide-small" src="images/logo.png" alt="IMID">
+		<a href="index.html" class="w3-bar-item w3-button w3-hide-medium"><i class="fa fa-home"></i>&nbsp;Home</a>
+  		<a href="log.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-hourglass-start"></i>&nbsp;Log</a>
+  	 	<a href="locations.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-location-arrow"></i>&nbsp;Locations</a>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hide-small">Illustrations <i class="fa fa-caret-down"></i></button>
  <div class="w3-dropdown-content w3-bar-block">
-  <a href="locations.html" class="w3-bar-item w3-button">Locations</a>
+  	 	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   		<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
  </div>
 </div>
 <div class="w3-dropdown-hover">
-    <button class="w3-button w3-hide-medium w3-hide-small"><b>Illustrations</b> <i class="fa fa-caret-down"></i></button>
+    <button class="w3-button w3-hide-small">Adaptations <i class="fa fa-caret-down"></i></button>
  <div class="w3-dropdown-content w3-bar-block">
-  <a href="articles.html" class="w3-bar-item w3-button">Articles</a>
-   <a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
+  		<a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+      	<a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+      	<a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
  </div>
 </div>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button w3-hide-medium w3-hide-small"><b>Adaptations</b> <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-bar-block">
-      <a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
-      <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
-      <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
-    </div>
-  </div>
-  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>&nbsp;<b>Contact</b></a>
-<img class="w3-right w3-hide-large" src="http://the-trusteeship.com/images/flogo.png" width="144" alt="IMID" ></div>
+  		<a href="contact.html" class="w3-bar-item w3-button w3-hide-medium"><i class="fa fa-envelope"></i>&nbsp;Contact</a>
+	<img class="w3-right w3-hide-large" style="width:114px;" src="images/flogo.png" alt="IMID">
+</div>
+
+<!-- Off Canvas Nav -->
+
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close</button>
    	<a href="index.html" class="w3-bar-item w3-button">Home</a>
 	<a href="log.html" class="w3-bar-item w3-button">Log</a>
 	<a href="locations.html" class="w3-bar-item w3-button">Locations</a>
-	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
 	<a href="open-letter.html" class="w3-bar-item w3-button">Open Letter</a>
-	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+	<a href="articles.html" class="w3-bar-item w3-button">Articles</a>
+   	<a href="resources.html" class="w3-bar-item w3-button">Adaptations</a>
+   	<a href="agencies.html" class="w3-bar-item w3-button">Agencies</a>
+    <a href="food-sources.html" class="w3-bar-item w3-button">Food Sources</a>
+    <a href="meetings.html" class="w3-bar-item w3-button">Meeting Places</a>
 	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
- </div>
+	<a href="privacy-policy.html" class="w3-bar-item w3-button">Privacy Policy</a>
+	<a href="site-map.html" class="w3-bar-item w3-button">Site Map</a>
+</div> 
 
-<!-- ===================================== 
-  SUBTITLE
-===================================== -->
-<div class="w3-row">
-	<div class="w3-container">
-		<div class="w3-mobile w3-cell-middle">
-  			<div class="w3-display-container w3-hover-opacity">
+<!-- Subtitle -->
+
+<div id="main" class="w3-padding-64 w3-medium">
+	<div class="w3-container w3-padding-32 w3-col">
+  		<div class="w3-display-container w3-hover-opacity">
     				<img src="images/resources.jpg" style="margin-bottom:30px" class="w3-image" alt="Nurturing Resources">
     			<div class="w3-display-middle w3-display-hover">
   					<ul class="w3-ul w3-center w3-text-green w3-medium w3-hoverable">
@@ -107,18 +111,16 @@ function w3_close() {
   			</div>   
   		</div>
 	</div>
-</div>
-
+	
 <!-- Body Content -->
 
-<div id="main">
-
-<!-- ===================================== 
-	REGULAR COLUMNS (The grid has no style related CSS. In following example we used panels to show classes) 
-===================================== -->
-<section class="w3-container w3-padding">
   <h1 style="text-align:center" class="section-title">Local Agencies and Providers</h1>
-	<div class="w3-row-padding">
+
+<div class="w3-cell-row">
+  	 
+  	  <!-- Begin columns -->
+  	  
+		<div class="w3-cell w3-padding w3-mobile">
    	<!-- Begin three columns -->
     <div class="w3-third w3-cell">
         <h4>Some Agency</h4>
@@ -144,8 +146,8 @@ function w3_close() {
         	Email: <a href="mailto:***@*****.com">***@*****.com</a><br>
         	Online at: <a href="some.web.address.com">some.web.address.com</a></p>
       </div>
-	</div>
-	<div class="w3-row-padding">
+<div class="w3-cell-row">
+		<div class="w3-cell w3-padding w3-mobile">
    	<!-- Begin three columns -->
     <div class="w3-third w3-cell">
         <h4>Some Agency</h4>
@@ -170,13 +172,17 @@ function w3_close() {
         <p>Tel: <a href="tel:***-***-****">(***) ***-****</a><br>
         	Email: <a href="mailto:***@*****.com">***@*****.com</a><br>
         	Online at: <a href="some.web.address.com">some.web.address.com</a></p>
-	</div>
+  	</div>
   </div>
-</section>
 </div>
 
-<div class="w3-container w3-padding-large w3-light-grey">
-   <p style="text-align:center">&copy; 2023 <a href="http://example.com">Some Company</a> All Rights Reserved</p>
-</div> 
-</body>
+<!-- footer -->
+
+  	 <div class="w3-cell-row">
+		<div class="w3-cell w3-padding w3-mobile">
+  <p style="text-align:center">&copy; 1996-2023, <a href="http://the-trusteeship.com">The Trusteeship</a> (<a href="http://imid.ltd">IMID</a>) | All Rights Reserved.</p>
+    <p style="text-align:center"><a href="http://trustee-ship.us/site-map.html">Site Map</a> | <a href="http://imid.ltd/privacy-policy.html">Privacy Policy</a></p>
+  		</div>
+	</div>
+ </body>
 </html>
