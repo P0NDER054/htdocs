@@ -14,6 +14,19 @@
 
 <link rel="stylesheet" type="text/css" href="css/w3.css">
 
+<!-- Navigation Javascript -->
+
+<script>
+function openNation(nationName) {
+  var i;
+  var x = document.getElementsByClassName("nation");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(nationName).style.display = "block";
+}
+</script>
+
 <!-- Sidebar Javascript -->
 
  <script>
@@ -110,23 +123,38 @@ function w3_close() {
   		
   		<!-- Subtitle -->
 
-<h1 style="text-align: center; margin-bottom:20px;">Where I've been</h1>
-    
-	<div class="w3-cell-row">
-  	 
-  	 		 <!-- Begin columns -->	
+ <h1 style="text-align: center; margin-bottom:20px;">States</h1>
+
+	<div class="w3-cell-row w3-cell-middle">	
 	  
-<div class="w3-third w3-cell w3-padding">
-<p>What it was like</p>
-</div> 
-<div class="w3-cell w3-padding w3-mobile w3-cell-top" style="width:33%">
-<p><img class="w3-image" style="width:100%;max-width:500px;" src="images/placeholder.jpg" alt="Image Description"></p>
-</div>
-<div class="w3-third w3-cell w3-padding">
-<p>What it's like now</p>
+  		<!-- Begin columns -->	
+	  
+<div class="w3-bar w3-cell-middle w3-yellow">
+  <button class="w3-bar-item w3-button" onclick="openNation('whatitwaslike')">What it was like</button>
+  <button class="w3-bar-item w3-button" onclick="openNation('whathappened')">What happened </button>
+  <button class="w3-bar-item w3-button" onclick="openNation('whatitslikenow')">What it's like now</button>
 </div>
 
-			<!-- End columns -->	
+<!-- End tabs navigation --> 
+      
+<!-- Begin tabs content -->
+      
+<div id="whatitwaslike" class="w3-container nation">
+  <h2>What it was like</h2>
+    <p>Continuing to develop tools for a more diversity within our community by documenting the results of doing what we were told and improving upon how we accomplish it.</p>  
+</div>
+
+<div id="whathappened" class="w3-container nation" style="display:none">
+  <h2>What happened</h2>
+  <p>Applying our skills to represent every entity we contract with (without passion or prejudice) to write, illustrate, or express all the relevant words and revelations we encounter along the way.</p> 
+</div>
+
+<div id="whatitslikenow" class="w3-container nation" style="display:none">
+  <h2>What it's like now</h2>
+<p>Faithfully fulfilling the expectations of our clients by doing everything our clients intend and nothing they do not, unless abrogated by an act of God or agreement.</p>
+</div>
+      
+<!-- End tabs  --> 
 
   	</div>
 
