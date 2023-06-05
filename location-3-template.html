@@ -17,13 +17,13 @@
 <!-- Navigation Javascript -->
 
 <script>
-function openNation(nationName) {
+function openJurisdiction(jurisdictionName) {
   var i;
-  var x = document.getElementsByClassName("nation");
+  var x = document.getElementsByClassName("jurisdiction");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  document.getElementById(nationName).style.display = "block";
+  document.getElementById(jurisdictionName).style.display = "block";
 }
 </script>
 
@@ -123,33 +123,33 @@ function w3_close() {
   		
   		<!-- Subtitle -->
 
- <h1 style="text-align: center; margin-bottom:20px;">States</h1>
+ <h1 style="text-align: center; margin-bottom:20px;">Jurisdiction</h1>
 
 	<div class="w3-cell-row w3-cell-middle">	
 	  
   		<!-- Begin columns -->	
 	  
 <div class="w3-bar w3-cell-middle w3-yellow">
-  <button class="w3-bar-item w3-button" onclick="openNation('whatitwaslike')">What it was like</button>
-  <button class="w3-bar-item w3-button" onclick="openNation('whathappened')">What happened </button>
-  <button class="w3-bar-item w3-button" onclick="openNation('whatitslikenow')">What it's like now</button>
+  <button class="w3-bar-item w3-button" onclick="openJurisdiction('whatitwaslike')">What it was like</button>
+  <button class="w3-bar-item w3-button" onclick="openJurisdiction('whatshappened')">What's happened </button>
+  <button class="w3-bar-item w3-button" onclick="openJurisdiction('whatitslikenow')">What it's like now</button>
 </div>
 
 <!-- End tabs navigation --> 
       
 <!-- Begin tabs content -->
       
-<div id="whatitwaslike" class="w3-container nation">
+<div id="whatitwaslike" class="w3-container jurisdiction">
   <h2>What it was like</h2>
     <p>Continuing to develop tools for a more diversity within our community by documenting the results of doing what we were told and improving upon how we accomplish it.</p>  
 </div>
 
-<div id="whathappened" class="w3-container nation" style="display:none">
-  <h2>What happened</h2>
+<div id="whatshappened" class="w3-container jurisdiction" style="display:none">
+  <h2>What's happened</h2>
   <p>Applying our skills to represent every entity we contract with (without passion or prejudice) to write, illustrate, or express all the relevant words and revelations we encounter along the way.</p> 
 </div>
 
-<div id="whatitslikenow" class="w3-container nation" style="display:none">
+<div id="whatitslikenow" class="w3-container jurisdiction" style="display:none">
   <h2>What it's like now</h2>
 <p>Faithfully fulfilling the expectations of our clients by doing everything our clients intend and nothing they do not, unless abrogated by an act of God or agreement.</p>
 </div>
